@@ -1,0 +1,173 @@
+/* =====================================
+    Template Name: Strict || HTML Template
+    Author: md sagor ali
+    Version: 1.0.0
+    Created: 14 February, 2021
+    File Description: Main Css file of the template   
+
+========================================*/
+
+/*=======================================
+    01.General        
+
+========================================*/
+
+
+
+/*=======================================
+    Typrography    
+========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Rufina:wght@400;700&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#6e7797;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    color:#000a2d;
+    margin:0;
+    padding:0;
+}
+h2{
+    font-size: 70px;
+}
+h4{
+    font-size: 20px;
+    color: #ff3d4f;
+    font-weight: 400;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#6e7797;
+    margin: 30px 0;
+    padding:0;
+    line-height: 20px;
+}
+a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#6e7797;
+    text-decoration: none;
+}
+/*=======================================
+                Header 
+========================================*/
+
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+#education{
+    padding: 70px 0;
+}
+
+
+.aboutit h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ff3d4f;
+}
+.abouitit h2{
+    font-size: 70px;
+    color: #000a2d;
+}
+.aboutit h2{
+    margin: 30px 0;
+}
+.computer h3{
+    font-size: 14px;
+    color: #ff3d4f;
+}
+.computer h2{
+    font-size: 26px;
+    color: #000a2d;
+    margin: 15px 0;
+}
+.lab img{
+    position: absolute;
+    top: 160px;
+}
+.computer {
+    width: 114%;
+    margin-left: 30px;
+}
+.educational{
+    width: 90%;
+    position: relative;
+}
+    
+.certificate{
+    display: flex;
+    justify-content: space-between;
+}
+.photo {
+    width: 266%;
+    margin-left: 200px;
+}
+.photo .nabil img {
+    position: absolute;
+    top: 245px;
+    left: 785px;
+    width: 32%;
+}
+
+
+.lab img{
+    height: 535px;
+}
+.photo img{
+    position: relative;
+    margin-right: 40px;
+    width:65%;
+}
+
+.iconia {
+    position: absolute;
+    top: 155px;
+    left: -12px;
+}
+.iconi img {
+    position: absolute;
+    top: 345px;
+    left: -13px;
+} 
+.con img {
+    position: absolute;
+    top: 531px;
+    left: -13px;
+}
+
+.qualification-image .check{
+    position: absolute;
+    text-align: center;
+    background-color: #ff3d4f;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 14px;
+    color: #fff;
+    top: 495px;
+    left: 747px;
+}
+.video h2{
+    font-size: 40px;
+    color: #ff3d4f;
+    text-align: center;
+    text-transform: uppercase;
+}
